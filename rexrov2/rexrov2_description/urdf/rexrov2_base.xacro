@@ -24,7 +24,7 @@
   <xacro:property name="visual_mesh_file" value="file://$(find rexrov2_description)/meshes/RexROV2_no_props.dae"/>
 
   <!-- Mass, see p.28 in Berg2012 -->
-  <xacro:property name="mass" value="1000"/>
+  <xacro:property name="mass" value="5000"/>
 <!--1862.87"/>-->
   <xacro:macro name="rexrov2_base"
     params="namespace *gazebo use_simplified_mesh inertial_reference_frame">
